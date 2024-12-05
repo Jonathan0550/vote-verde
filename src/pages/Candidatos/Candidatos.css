@@ -20,11 +20,11 @@
 
 .candidatos-main h2,
 .candidatos-main p {
-  color: white; /* Define o texto principal como branco */
+  color: white; 
 }
 
 .candidatos-main h3 {
-  color: white; /* Define o nome do candidato como branco */
+  color: white;
   margin-top: 10px;
 }
 
@@ -51,11 +51,16 @@
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   text-align: left;
+  max-width: 600px; 
+  white-space: pre-line; 
+  line-height: 1.5em; 
+  margin: 20px auto;
+  background-color: white;
 }
 
 .candidatos-card-info h3,
 .candidatos-card-info p {
-  color: white; 
+  color: black; 
 }
 
 .candidatos-card-info button {
