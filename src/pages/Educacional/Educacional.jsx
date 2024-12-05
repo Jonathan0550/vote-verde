@@ -37,7 +37,7 @@ const EducacionalCard = ({ title, text, image }) => (
     </div>
     <div className="educacional-card-content">
       <p>{text}</p>
-      <button className="educacional-button-saiba-mais">Saiba mais</button>
+      
     </div>
   </div>
 );
@@ -70,7 +70,10 @@ const Footer = () => (
   </footer>
 );
 
-const Educacional = () => (
+const Educacional = () => {
+  const navigate = useNavigate();
+
+  return(
   <div className="educacional-container">
     <EducacionalHeader />
     <EducacionalTextSection />
@@ -103,5 +106,6 @@ const Educacional = () => (
       <Footer/>
   </div>
 );
+};
 
 export default Educacional;
