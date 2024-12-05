@@ -21,7 +21,7 @@ const Header = () => {
     </div>
     <div className="hero-content">
       <h1>Voto Verde: Faça a Diferença com seu Voto</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      <p>Votar em candidatos comprometidos com a preservação do meio ambiente é essencial para garantir um futuro sustentável. Eles promovem políticas que combatem as mudanças climáticas, preservam os recursos naturais e incentivam práticas responsáveis de consumo e produção.</p>
       <button onClick={() => navigate('/Educacional')}>Saiba Mais</button>
     </div>
   </header>
