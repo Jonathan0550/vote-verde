@@ -1,0 +1,231 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(51, 51, 51, 1)), 
+              url('./background.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.hero-content {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.hero-content {
+  text-align: left;
+  padding: 100px 20px;
+  max-width: 600px; 
+}
+
+.hero-content h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  cursor: pointer;
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.sustainable-policies {
+  background-color: #3C8C4A;
+  padding: 50px 20px;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+}
+
+.sustainable-policies h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  color: #e7f7ee;
+}
+
+.stat h3 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.stat p {
+  margin: 5px 0 0;
+}
+
+.importance h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 150px;
+  margin-top: 150px;
+  font-size: xx-large;
+}
+
+.content-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-card.with-image p{
+  margin: 20px;
+}
+
+.content-card.with-image {
+  display: flex;
+  text-align: justify;
+  gap: 20px;
+  font-size: x-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content-card.no-image p {
+  display: flex;
+  text-align: justify;
+  margin: 20px;
+  gap: 20px;
+  font-size: x-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content-card-image{
+  width: 500px;
+  max-height: 500px;
+}
+
+.candidates-banner {
+  background: #3C8C4A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  color: white;
+}
+
+.candidates-banner h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.candidates-banner button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  cursor: pointer;
+}
+
+.text-button-group {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.recycling-icon {
+  display: flex;
+  margin-left: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  background-color: #333;
+  color: white;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer .footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 150px;
+}
+
+.footer .contact, .footer .social, .footer .hours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .social p {
+  display: flex;
+  gap: 10px;
+}
+
+.footer .map img {
+  width: 100px;
+  height: auto;
+}
+
+.footer .credits {
+  flex-basis: 100%;
+  margin-top: 20px;
+  border-top: 1px solid #555;
+  padding-top: 20px;
+  font-size: 0.9em;
+}
